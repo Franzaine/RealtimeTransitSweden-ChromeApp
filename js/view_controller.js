@@ -1,6 +1,4 @@
 
-$( document ).ready(function() {
-
 	function toggleVisibilityFunction () {
 	
 		$("#departureContainer").toggleClass("visible"); 
@@ -9,4 +7,3 @@ $( document ).ready(function() {
 		
 	}
 
-})

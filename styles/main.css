@@ -1,0 +1,97 @@
+html  {
+	
+  height:100%;
+}
+
+body {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color:#EBEBE0;
+  margin: 0;
+  padding: 0;
+}
+
+
+.search { 
+	padding:6px 15px 6px 30px;
+	margin:3px; 
+	background: url('../assets/images/action_search.png') no-repeat 8px 6px; 
+}
+
+table,tr,td
+{
+border:0 solid black;
+border-collapse:collapse;
+}
+
+#cardContainer .visible  {
+
+	display:inline;
+}
+
+#cardContainer:not(.visible ) {
+
+	display:none;
+}
+
+#departureContainer .visible  {
+
+	display:inline;
+}
+
+#departureContainer:not(.visible ) {
+
+	display:none;
+}
+
+#backbutton .visible  {
+
+	display:inline;
+}
+
+#backbutton:not(.visible ) {
+
+	display:none;
+}
+.cardTime {
+	
+	
+}
+
+.cardStation {
+	
+	
+}
+
+.cardDirection {
+	
+	
+}
+
+.removedView.deleted {
+
+	display:inline;
+
+}
+
+.removedView:not(.deleted) {
+
+	display:none;
+
+}
+
+.departureCard.deleted {
+
+	display:none;
+
+}
+
+.departureCard:not(.deleted) {
+
+	display:inline;
+
+}
+
+html, body, p, h1, h2, h3, h4, h5, td, tr, table, div, img {
+	 border:0 solid red;
+}

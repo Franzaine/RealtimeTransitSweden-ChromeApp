@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Realtime Transit Sweden</title>
+    <link href="styles/main.css" rel="stylesheet">
+	<script src="js/jquery/jquery.min.js"></script>
+	<script type='text/javascript' src='js/app.js'></script>
+	<script type='text/javascript' src='js/view_controller.js'></script>
+	
+</head>
+<body>
+
+<div id="actionbar" style="width:100%;height:40px; background-color:white; position:absolute; left:0; top:0;">
+
+	<img src="assets/images/action_back.png" style="width:30px; height:30px; float:left;" id="backbutton">
+	
+	<img src="assets/images/action_refresh.png" style="width:30px; height:30px; display:inline; float:left;">
+	
+	<p id="debugtext" style="width:30px; height:30px; display:inline; float:left;">debug</p> 
+	
+	<form>
+		<span><input id="searchbar" type="text" class="search"  placeholder="Search..."></span>
+	</form>
+
+</div>
+
+<div id="loadingbar" style="position:absolute; left:0; top:40px; width:100%;height:2px; background-color:lightGray;">
+
+</div>
+
+<div id="cardContainer" style="position:absolute; left:0; top:42px; overflow-y:auto; bottom:0; overflow-x:hidden; width:100%; " class="visible">
+
+	
+	
+	
+</div>
+
+<div id="departureContainer" style="position:absolute; left:0; top:42px; overflow-y:auto; bottom:0; overflow-x:hidden; width:100%;">
+
+
+	
+	
+	<div class="departureColor" style="background-color:red; position:absolute; left:0; right:97%; height:100%;"></div>
+	
+	<div id="departureTextHolder" style="background-color:white; position:absolute; left:3%; right:0%; height:100%;">
+	
+		
+		<table style=" ">
+		<tr style="">
+			<td style="">
+				<img class="departureType" src="assets/images/card_traffic_bus.png" style="margin:5px;">
+			</td>
+			<td style="">
+				<table style="margin-right:10px">
+					<tr style="">
+						<td class="departureStation" style="">Placeholder</td>
+					</tr> 
+					<tr style="">
+						<td class="departureDirection" style="">Placeholder</td>
+					</tr>
+	</table></td></tr>
+	</table>
+	
+	
+	
+	</div>
+	
+	
+
+</div>
+
+
+</body>
+</html>

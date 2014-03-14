@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Realtime Transit Sweden",
+  "version": "1",
+  "minimum_chrome_version": "23",
+  "icons": {
+    "16": "assets/images/icon_16.png",
+    "128": "assets/images/icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": [
+	  "js/main.js",
+	  "index.html",
+	  "js/app.js",
+	  "js/view_controller.js"
+	  ]
+    }
+  }
+}

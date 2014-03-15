@@ -12,8 +12,14 @@
       "scripts": [
 	  "js/main.js",
 	  "index.html",
-	  "js/app.js",
-	  "js/view_controller.js"
+	  "js/main_app.js",
+	  "js/view_controller.js",
+	  "js/view_detailed.js",
+	  "js/view_cards.js",
+	  "js/positioning.js",
+	  "js/user_preferences.js",
+	  "js/searchbar_handler.js",
+	  "js/server_callup.js"
 	  ]
     }
   }

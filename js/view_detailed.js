@@ -16,13 +16,13 @@ function getDepartureInformationFunction (departureId) {
 		
 		//TODO: Append the times returned from server with corresponding realtimemarker
 		
-		$("departureTimeContainer").empty();
+		$("#departureTimeContainer").empty();
 		
 		additionalDepartureTimesArray = getAdditionalDepartureTimes(departureId);
 		
 		for (i = 0; i<additionalDepartureTimesArray.length; i++){
 		
-			$("#departureTextHolder").append('<div class="departureTimeContainer"><img src="assets/images/icon_realtime_' + additionalDepartureTimesArray[i][1] + '.png" style="height:1.5em; margin-left:10px; margin-right:5px;"><p class="departureTime" style="display:inline;">' + additionalDepartureTimesArray[i][0] + '</p></div>')
+			$("#departureTimeContainer").append('<div><img src="assets/images/icon_realtime_' + additionalDepartureTimesArray[i][1] + '.png" style="height:1.5em; margin-left:10px; margin-right:5px;"><p class="departureTime" style="display:inline;">' + additionalDepartureTimesArray[i][0] + '</p></div>')
 				
 		}
 		

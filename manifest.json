@@ -11,6 +11,10 @@
     "background": {
       "scripts": [
 	  "js/main.js",
+	  "js/jquery/jquery.min.js",
+	  "js/protobuf/ProtoBuf.js",
+	  "js/long/Long.js",
+	  "js/bytebuffer/ByteBuffer.js",
 	  "index.html",
 	  "js/main_app.js",
 	  "js/view_controller.js",
